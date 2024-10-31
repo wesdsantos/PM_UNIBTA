@@ -31,7 +31,7 @@ body {
 }
 
 .container {
-    padding: 1.6rem 3.2rem;
+    padding: 12px 3.2rem;
     width: min(112rem, 100%);
     margin: 0 auto;
 }
@@ -150,9 +150,36 @@ main h1 {
     text-transform: uppercase;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+}
+
+button {
+    display: block;
+    margin-top: 2rem;
+    text-align: center;
+    width: 120px;
+    height: 30px;
+    font-size: 11px;
+
+    background-color: #f5f5f5;
+    border-color: #f5f5f5;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.6s ease;
+}
+
+button:hover{
+    background-color: #009cbe;
+    color: #ffffff;
+  
+}
+
 footer P {
     text-align: center;
-    padding: 1.6rem;
+    padding: 0.4rem;
     font-weight: 600;
 }
 
